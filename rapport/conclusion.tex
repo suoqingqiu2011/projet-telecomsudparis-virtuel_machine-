@@ -1,0 +1,8 @@
+\section{Conclusion}
+\noindent Nous avons proposé une implémentation en C de l’algorithme de simulation de machine virtuelle selon la propriété de la distribution stationnaire. 
+\\
+\noindent Pour avoir les résultats les plus performants, on a proposé trois modèles de simulation avec des différentes configurations, les VMs sont saturées lorsque le Taux d'arrivées ($\lambda$) dépasse leurs seuils et la probabilité de blocage augmente aussi quand $\lambda$ continu à augmenter après avoir déjà dépassé la capacité du système.
+
+\noindent Après plusieurs simulations, nous avons trouvé que la performance du VM en modèle A (12 serveurs) est la plus efficace par rapport au modèle C (3 serveurs) et au modèle B (6 serveurs) car le cas de blocage en modèle A apparaît lorsque $\lambda$ = 70, en modèle B quand  $\lambda$ = 60 et en modèle C quand $\lambda$ = 50.
+
+\noindent Nos résultats de simulation correspondent avec les résultats obtenus dans l'article présenté par V.Goswami, S.S.Patra G.B.Mund.

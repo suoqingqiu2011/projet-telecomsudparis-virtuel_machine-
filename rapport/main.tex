@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage[french]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{xspace}
+\usepackage{vmargin,fancyhdr}
+\usepackage{graphicx}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage{tabulary}
+
+\usepackage{algcompatible}
+\usepackage{algorithm}
+
+
+
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[T1]{fontenc}
+
+\usetikzlibrary{calc, automata, chains, arrows.meta, quotes}
+
+\setlength{\marginparwidth}{2cm}
+
+\begin{document}
+
+\title{\textbf{\underline{ Rapport (Queue Dependent Virtual Machine)} \\  \emph{\\Projet : Analyse des performance et de l\'utilisation des ressources dans un data center}}}
+\author{  \\ Abderrezak \bsc{AGGOUN}\\Bin \bsc{LIU} }
+\date{Master2 Informatique AMIS Paris Saclay \\UVSQ 2019-2020}
+
+
+\vspace{10cm}
+\maketitle
+\newpage
+\tableofcontents
+\addcontentsline{toc}{section}{Projet : Analyse des performance et de l\'utilisation des ressources dans un data center}
+
+\include{introduction}
+\include{presentation_th}
+\include{etude_experimentale}
+\include{difficulte}
+\include{conclusion}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
